@@ -13,7 +13,7 @@ class ApplicationController < Sinatra::Base
     erb :index
   end
 
-  post '/recipes/id' do
+  post '/recipes/:id' do
 
   end
 
