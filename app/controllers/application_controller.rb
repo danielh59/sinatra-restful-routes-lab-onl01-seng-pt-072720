@@ -19,7 +19,7 @@ class ApplicationController < Sinatra::Base
   end
 
   post '/show' do
-    
+
   end
 
   get '/recipes/id' do
