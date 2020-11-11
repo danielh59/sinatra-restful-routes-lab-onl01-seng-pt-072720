@@ -11,4 +11,4 @@ class Recipes < ActiveRecord::Migration
     end
 
   end
-end 
+end
