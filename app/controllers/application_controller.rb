@@ -13,6 +13,9 @@ class ApplicationController < Sinatra::Base
     erb :index
   end
 
+get '/new' do
+  erb :new 
+end
   # code actions here!
 
 end
