@@ -15,6 +15,8 @@ class ApplicationController < Sinatra::Base
   post '/recipes' do
       @recipe = Recipe.create(params)
   end
+
+  po
   get '/recipes/new' do
     erb  :new
   end
