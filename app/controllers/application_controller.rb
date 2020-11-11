@@ -27,7 +27,7 @@ class ApplicationController < Sinatra::Base
     erb :edit
   end
 
-  get '/recipes/new' do
+  post '/recipes/new' do
     erb  :new
   end
   # code actions here!
