@@ -1,5 +1,3 @@
-<ul>
-<li></li>
-<li></li>
-<li></li>
-</ul>
+<% @recipes.each do |pet| %>
+  <input type="checkbox" name="owner[pet_ids][]" id="<%= pet.id %>" value="<%= pet.id %>"><%= pet.name %><br>
+<% end %>
