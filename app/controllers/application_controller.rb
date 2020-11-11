@@ -18,6 +18,7 @@ class ApplicationController < Sinatra::Base
   end
 
   get '/recipes/#{@recipe1.id}' do
+    erb :a_recipe
   end
   # code actions here!
 
