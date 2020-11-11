@@ -14,10 +14,10 @@ class ApplicationController < Sinatra::Base
   end
 
   post '/recipes/:id' do
-
+  redirect to '/recipes/:id'
   end
 
-  get '/recipes/id' do
+  get '/recipes/:id' do
     @recipe = Recipe.find(params[:id])
     erb :show
   end
