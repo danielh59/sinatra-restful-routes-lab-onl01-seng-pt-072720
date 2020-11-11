@@ -14,17 +14,9 @@ class ApplicationController < Sinatra::Base
   end
   post '/recipes/id'
 
-  get 'recipes/id' do
-    erb :show
-  end
-
-  post '/show' do
-
-  end
-
   get '/recipes/id' do
     @recipe = Recipe.find(params[:id])
-    erb :a_recipe
+    erb :show
   end
   # code actions here!
 
