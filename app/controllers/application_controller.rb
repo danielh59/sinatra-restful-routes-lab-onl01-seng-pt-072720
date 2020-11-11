@@ -17,6 +17,10 @@ class ApplicationController < Sinatra::Base
     erb  :new
   end
 
+  post '/recipe/new' do
+    redirect tp
+  end
+
   post '/recipes/:id' do
   redirect to '/recipes/:id'
   end
