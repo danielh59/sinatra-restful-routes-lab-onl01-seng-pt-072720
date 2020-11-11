@@ -23,7 +23,7 @@ class ApplicationController < Sinatra::Base
   end
 
   post 'recipes/:id/edit' do
-    
+
   end
   # code actions here!
 
