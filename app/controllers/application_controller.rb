@@ -14,7 +14,7 @@ class ApplicationController < Sinatra::Base
   end
 
 get '/new' do
-  erb :new 
+  erb :new
 end
   # code actions here!
 
