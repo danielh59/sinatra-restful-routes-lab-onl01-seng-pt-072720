@@ -11,7 +11,7 @@ class ApplicationController < Sinatra::Base
   get '/recipes' do
     @reipces = Recipe.all
   end
-  
+
   # code actions here!
 
 end
