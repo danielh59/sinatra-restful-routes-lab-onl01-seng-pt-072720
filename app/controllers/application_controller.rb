@@ -18,7 +18,7 @@ class ApplicationController < Sinatra::Base
   end
 
   post '/recipe/new' do
-    redirect to
+    redirect to post
   end
 
   post '/recipes/:id' do
