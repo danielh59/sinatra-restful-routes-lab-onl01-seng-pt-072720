@@ -9,6 +9,6 @@ class Recipes < ActiveRecord::Migration
     def down
       drop_table :recipes
     end
-    
+
   end
 end
