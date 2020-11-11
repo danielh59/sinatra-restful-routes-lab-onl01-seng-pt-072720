@@ -14,7 +14,7 @@ class ApplicationController < Sinatra::Base
   end
 
   post '/recipes/id' do
-    
+
   end
 
   get '/recipes/id' do
