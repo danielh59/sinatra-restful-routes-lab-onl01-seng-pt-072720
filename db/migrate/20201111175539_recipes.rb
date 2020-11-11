@@ -4,7 +4,7 @@ class Recipes < ActiveRecord::Migration
       recipe.string :name
       recipe.string :ingredients
       recipe.string :cook_time
-      
+
     end
   end
 end
