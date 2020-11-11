@@ -12,6 +12,9 @@ class ApplicationController < Sinatra::Base
     @recipes = Recipe.all
     erb :index
   end
+  get '/recipes/new' do
+    erb  :new
+  end
 
   post '/recipes/:id' do
   redirect to '/recipes/:id'
@@ -27,9 +30,7 @@ class ApplicationController < Sinatra::Base
     erb :edit
   end
 
-  get '/recipes/new' do
-    erb  :new
-  end
+
   # code actions here!
 
 end
